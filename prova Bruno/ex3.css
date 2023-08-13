@@ -1,0 +1,48 @@
+*{ box-sizing: border-box ;
+    margin: 0px;
+
+}
+body{
+
+    background-color: #60b0d8; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh;
+
+
+}
+.container{
+    border: 8px solid #800080 ;
+height: 90vh;
+width: 90vw;
+align-self: center;
+flex-direction: row;
+display: flex;
+justify-content: space-between;
+}
+.el1{  border: 8px solid #800080 ;
+    height: 40vh;
+    width: 10vw;
+    align-self: center;
+    margin-left: 15px;
+    justify-content: flex-start;
+}
+.el2{ 
+    height: 30vh;
+    width: 15vw;
+  background-color:  #800080;
+    align-self: center;
+    border-radius: 100%;
+
+
+}
+.el3{
+    border: 8px solid #800080 ;
+    height: 40vh;
+    width: 10vw;
+    align-self: center;
+    margin-right: 15px;
+    justify-content: flex-end;
+}

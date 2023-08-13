@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'font01';
+    src: url('../assets/fonts/AdihausDIN-Bold.woff2');
+}
+
+@font-face {
+    font-family:'font02';
+    src: url('../assets/fonts/AdihausDIN-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'font03';
+    src: url('../assets/fonts/boing-500\ \(1\).woff2');
+}
+
+@font-face {
+    font-family: 'font04';
+    src: url('../assets/fonts/boing-400\ \(2\).woff2');
+}
+
+@font-face {
+    font-family: 'font05';
+    src: url('../assets/fonts/AdihausDIN-CnMediumItalic.woff2');
+}
+
+@font-face {
+    font-family: 'font06';
+    src: url('../assets/fonts/adineuePRO-Bold.woff2');
+}

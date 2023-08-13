@@ -1,0 +1,144 @@
+.secao-1 {
+    width: 115rem;
+    height: 8rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.secao-1 > h1 {
+    font: 3rem font4;
+}
+
+
+
+.secao-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quad-cima{
+    display: flex;
+}
+
+.quad-cima > .a {
+    background-color: rgb(241, 238, 238);
+    margin: 20px;
+    width: 40rem;
+    height: 30rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quad-cima > .b {
+    background-color: rgb(241, 238, 238);
+    margin: 20px;
+    width: 40rem;
+    height: 30rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quad-cima > .a > h1 {
+    width: 30rem;
+    text-align: center;
+    font: 30px font4;
+    margin-bottom: 3rem;
+}
+
+.quad-cima > .b > h1 {
+    width: 28rem;
+    text-align: center;
+    font: 30px font4;
+    margin-bottom: 3rem;
+}
+
+
+
+
+.quad-baixo{
+    display: flex;
+}
+
+.quad-baixo > .c {
+    background-color: rgb(241, 238, 238);
+    margin: 20px;
+    width: 40rem;
+    height: 30rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quad-baixo > .d {
+    background-color: rgb(241, 238, 238);
+    margin: 20px;
+    width: 40rem;
+    height: 30rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quad-baixo > .c > h1 {
+    width: 30rem;
+    text-align: center;
+    font: 30px font4;
+    margin-bottom: 3rem;
+}
+
+.quad-baixo > .d > h1 {
+    width: 30rem;
+    text-align: center;
+    font: 30px font4;
+    margin-bottom: 3rem;
+}
+
+.secao-2 > .quad-cima > .a > img {
+    width: 30rem;
+}
+
+.secao-2 > .quad-cima > .b > img {
+    width: 25rem;
+}
+
+.secao-2 > .quad-baixo > .c > img {
+    width: 30rem;
+}
+
+.secao-2 > .quad-baixo > .d > img {
+    width: 20rem;
+}
+
+.secao-3 {
+    background-color: rgb(255, 255, 255);
+    width: 115rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secao-3 > a {
+    background-color: black;
+    padding: 13px;
+    border-radius: 30px;
+    color: aliceblue;
+    text-decoration: none;
+    font: 20px font4;
+}
+

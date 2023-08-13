@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'waze01';
+    src: url(boing-400\ \(1\).woff2);
+}
+
+@font-face {
+    font-family: 'waze02';
+    src: url(boing-500.woff2);
+}
+
+
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.imgwaze{
+    height: 37px;
+    width: 37px;
+    margin: 20px;
+   
+}
+
+.div1{
+    background-color: #f2f4f7 ;
+    width: 1200px;
+    height: 180px;
+    margin: 100px 200px !important;
+    border-radius: 10px;
+}
+
+.div1 h1{
+    font: 55px 'waze02';
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+
+.div1 img{
+    height: 90px;
+    position: absolute;
+    top: 205px;
+    right: 250px;
+}
+
+.div2 img{
+    height: 90px;
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+#a1{
+    border: 2px solid transparent;
+    padding: 10px 40px;
+    font: 20px 'waze02';
+    border-radius: 40px;
+    background-color: white;
+    text-decoration: none;
+    
+}
+
+.div2{
+    background-color:#fce354;
+    height: 550px;
+    width: 580px;
+    padding: 80px 50px;
+    position: absolute;
+    left: 200px;
+    top: 310px;
+    border-radius: 15px;
+}
+
+.div2 h1{
+    font: 45px 'waze02';
+    margin-bottom: 20px;
+}
+
+.div2 p{
+    font: 400 17px 'waze01';
+    margin-bottom: 50px;
+    
+}
+
+.div2 a{
+    color: black;
+}
+
+#a1:hover{
+    border-color: black;
+}
+
+
+.div3{
+    background-color:#ff8f00;
+    height: 550px;
+    width: 580px;
+    padding: 80px 50px;
+    position: absolute;
+    left: 200px;
+    top: 310px;
+    border-radius: 15px;
+    top: 310px;
+    left: 820px;
+}
+
+.div3 h1{
+    font: 45px 'waze02';
+    margin-bottom: 20px;
+}
+
+.div3 p{
+    font: 400 17px 'waze01';
+    margin-bottom: 50px;
+    
+}
+
+.div3 a{
+    color: black;
+}
+
+
+.div3 img{
+    height: 90px;
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+.div4{
+    background-color:#3cf;
+    height: 550px;
+    width: 580px;
+    padding: 80px 50px;
+    position: absolute;
+    left: 200px;
+    border-radius: 15px;
+    top: 895px;
+}
+
+.div4 h1{
+    font: 45px 'waze02';
+    margin-bottom: 20px;
+}
+
+.div4 p{
+    font: 400 17px 'waze01';
+    margin-bottom: 50px;
+    
+}
+
+.div4 a{
+    color: black;
+}
+
+
+.div4 img{
+    height: 90px;
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+.div5{
+    background-color:#1ee592;
+    height: 550px;
+    width: 580px;
+    padding: 80px 50px;
+    position: absolute;
+    left: 820px;
+    border-radius: 15px;
+    top: 895px;
+}
+
+.div5 h1{
+    font: 45px 'waze02';
+    margin-bottom: 20px;
+}
+
+.div5 p{
+    font: 400 17px 'waze01';
+    margin-bottom: 50px;
+    
+}
+
+.div5 a{
+    color: black;
+}
+
+
+.div5 img{
+    height: 90px;
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+.div6{
+    background-color:#963eff;
+    height: 450px;
+    width: 1200px;
+    padding: 80px 50px;
+    position: absolute;
+    left: 200px;
+    border-radius: 15px;
+    top: 1480px;
+}
+
+.div6 h1{
+    font: 45px 'waze02';
+    margin-bottom: 20px;
+    color: white;
+}
+
+.div6 p{
+    font: 400 17px 'waze01';
+    margin-bottom: 50px;
+    color: white;
+    
+}
+
+.div6 a{
+    color: black;
+}
+
+
+.div6 img{
+    height: 90px;
+    width: 90px;
+    margin-bottom: 10px;
+}

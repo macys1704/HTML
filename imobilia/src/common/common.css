@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'mm';
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: 'font1';
+    src: url(../assets/fonts/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2);
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url(../assets/fonts/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2);
+}
+
+@font-face {
+    font-family: 'font3';
+    src: url(../assets/fonts/pxiByp8kv8JHgFVrLCz7Z1xlFQ\ \(1\).woff2);
+}
+
+@font-face {
+    font-family: 'font4';
+    src: url(../assets/fonts/FBVwdDflz-iPfoPuIC2iKgEB_UBFJg.woff2);
+}
+
+@font-face {
+    font-family: 'font5';
+    src: url(../assets/fonts/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2);
+}

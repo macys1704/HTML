@@ -1,0 +1,284 @@
+header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+}
+
+header div{
+    margin: 120px;
+}
+
+header div img{
+    height: 3vh;
+    color: #ffffff;
+   
+}
+
+header div a img{
+    height: 2vh;
+    margin-left: 5px;
+}
+
+header div a {
+    background-color: #63C3D1;
+    text-align: left;
+    padding:10px 20px;
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+article{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 1100px;
+}
+
+article div{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 15px;
+}
+
+article div img{
+    height: 350px;
+}
+
+article div h1{
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+article div p{
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+article div a{
+    color: black;
+    background-color: #63C3D1;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 100px;
+    margin-top: 80px;
+}
+
+.c{
+    background-color: rgb(233, 233, 233);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 30px;
+    width: 1100px;
+    
+}
+
+
+nav h2{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+nav div{
+    background-color: #63C3D1;
+    padding: 2px 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+nav div h1{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+nav div p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+nav h3{
+    font-size: 18px;
+    margin-bottom: 15px;
+    background-color:rgb(233, 233, 233);
+    border-radius: 2px;
+    width: 900px;
+    padding: 10px 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    background-color: #1D4459;;
+    width:100% ;
+    margin-top:30px ;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 70px;
+}
+
+footer div a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+footer div a:hover{
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+footer div h2 a:hover{
+    text-decoration: underline;
+    font-size: 17px;
+   
+}
+
+footer div h2 a{
+    text-decoration: none;
+    color: #63C3D1;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer div h2{
+    color: #63C3D1;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer div p{
+    color: #ffffff;
+    margin-bottom: 5px;
+    
+}
+
+.l{
+    height: 2px;
+    width: 1000px;
+    background-color:#5B869D;
+    padding: 1px;
+   
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    background-color: #1D4459;;
+    width:100% ;
+   
+}
+
+.footer p{
+    color:#5B869D;
+    margin: 15px;
+    
+}
+
+@media (max-width:1100px) {
+    article div img{
+        height: 300px;
+    }
+
+    article div{
+        width: 400px;
+    }
+    
+    nav h3{
+        width: 500px;
+    }
+
+    nav{
+        margin-left: 450px;
+    }
+
+    footer div{
+        width: 150px;
+        margin: 30px;
+    }
+
+    footer{
+       
+        height: 50vh;
+        width: 70rem;
+        
+    }
+
+    footer div a{
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+    footer div h2{
+        font-size: 14px;
+    }
+
+    footer div p{
+        font-size: 14px;
+    }
+
+    .l{
+        width: 600px;
+    }
+
+    .footer p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:760px) {
+    article{
+        flex-direction: column;
+    }
+
+    footer{
+        align-items: flex-start;
+        height: 95vh;
+        width: 46rem;
+        flex-direction: column-reverse;
+    }
+
+    nav{
+        margin-left: 700px;
+    }
+
+    nav h3{
+        width: 450px;
+    }
+
+    footer div{
+        margin: 10px;
+    }
+
+    footer div a{
+        margin-bottom: 5px;
+    }
+}

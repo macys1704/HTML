@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #60b0d8;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container div{
+    border: 5px solid #800080;
+    height: 30vh;
+    width:15vw;
+    margin: 10px;
+}
+
+.el1{
+    align-self: flex-end;
+}
+
+.el2{
+    align-self: center; 
+}
+
+.el3{
+    align-self: flex-start;
+}

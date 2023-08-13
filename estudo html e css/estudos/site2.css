@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family= Roboto & display = swap');
+
+ @font-face {
+    font-family: 'DarenBulky';
+    src: url('DarenBulky.ttf');
+ }
+
+h1 {
+    color:blue;
+    font-family: 'DarenBulky';
+    
+}

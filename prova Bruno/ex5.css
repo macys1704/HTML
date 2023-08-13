@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+.secao{
+    background-color: rgba(0, 0, 0, 0.689);
+   width: 98vw;
+   height: 95vh; 
+   margin: 20px;
+   display: flex;
+   flex-direction:column;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.container{
+    display: flex;
+    flex-direction:row;
+}
+
+.bola1{
+    background-color: red;
+    width: 40vh;
+    height: 40vh;
+    opacity: 60%;
+    border-radius: 100%;
+    position: relative;
+    
+}
+
+.bola2{
+    background-color: rgb(255, 217, 0);
+    width: 40vh;
+    height: 40vh;
+    opacity: 60%;
+    border-radius: 100%;
+    position: relative;
+    right: 90px;
+    
+}
+
+.quadrado{
+    background-color: coral;
+    width: 40vh;
+    height: 40vh;
+    rotate:45deg;
+    position: relative;
+    top: -196px;
+    right: 45px;
+    opacity: 70%;
+    
+}

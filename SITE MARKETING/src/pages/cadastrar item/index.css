@@ -1,0 +1,73 @@
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section h1{
+    font: 30px 'font06';
+    margin-bottom: 20px; 
+    color:#004AAD ;   
+}
+
+section input{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #a8a8a8;
+    box-sizing: border-box;
+    color: #000000;
+    font: 14px Helvetica;
+    height: 40px;
+    line-height: 17px;
+    padding: 0 16px;
+    width: 26%;
+    margin-bottom: 20px;
+}
+
+section select{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #a8a8a8;
+    box-sizing: border-box;
+    color: #000000;
+    font: 14px Helvetica;
+    height: 40px;
+    line-height: 17px;
+    padding: 0 16px;
+    width: 26%;
+    margin-bottom: 20px;
+}
+
+section button{
+    padding: 10px 20px;
+    background-color: white;
+    margin-bottom: 20px;    
+}
+
+section button > img{
+    display: flex;
+    justify-content: center;
+}
+
+section button > a{
+    font-family: 'font06';
+    text-decoration: none;
+    color: #000;
+}
+
+#a1{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: none;
+    text-align: center;
+    letter-spacing: 1px;
+}
+#b1{
+    border: none;
+    padding: 10px 60px;
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+}

@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'font1';
+    src: url(../assets/fonts/font1.woff2);
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url(../assets/fonts/font2.woff2);
+}
+
+@font-face {
+    font-family: 'font3';
+    src: url(../assets/fonts/font3.woff2);
+}

@@ -1,0 +1,327 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;   
+    box-shadow: 5px 5px 10px rgb(216, 216, 216);
+    width: 100%;
+  
+}
+
+header > img{
+    height: 50px;
+    
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    
+}
+
+article div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+article div img{
+    height: 600px;
+}
+
+article div p{
+    width: 400px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'font1';
+    color:#262626 ;
+}
+
+article div h2{
+    color: #E9184C;
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-family: 'font2';
+}
+
+article div h1{
+    font-size: 45px;
+    font-family: 'font2';
+    color: #262626;
+}
+
+article div a{
+    text-decoration: none;
+    color: red;
+    border: solid 2.5px red;
+    padding: 15px 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#E9184C;
+    align-self: center;
+    width: 55vw;
+    padding: 50px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+nav div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+nav div div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+nav h1{
+    color: white;
+    width: 800px;
+    font-size:30px ;
+    font-family: 'font2';
+}
+
+nav div div p{
+    color: rgb(190, 190, 190);
+    background-color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    margin: 20px;
+    width: 300px;
+    border-radius: 8px;
+    font-family: 'font1';
+}
+
+.ponto{
+    margin-right: 5px;
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 5px;
+    border: solid 1px gray;
+}
+
+nav nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+nav nav h2{
+    color: #fff;
+    font-size: 14px;
+    margin-right: 15px;
+    font-weight: 500;
+    font-family: 'font2';
+}
+
+nav > a{
+    text-decoration: none;
+    color: #E9184C;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 50px;
+    font-family: 'font2';
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+aside > h1{
+    font-size: 40px;
+    width: 800px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'font2';
+    color: #262626;
+}
+
+aside > h1 > a{
+    text-decoration: none;
+    color: #E9184C;
+    font-family: 'font2';
+}
+
+aside div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+aside div div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 150px;
+    background-color: rgb(236, 236, 236);
+    margin: 25px;
+    border-radius:10px ;
+}
+
+aside div div img{
+    height: 50px;
+    margin-top: -70px;
+    margin-bottom: 10px;
+}
+
+aside div div h1{
+    font-family: 'font2';
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    width: 300px;
+}
+
+aside div div p{
+    font-size: 14px;
+    text-align: center;
+    width: 300px;
+    font-family: 'font1';
+    font-weight: 800;
+}
+
+.faixa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(221, 218, 218);
+    width: 100%;
+    margin-top: 60px;
+}
+
+.faixa div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.faixa div h1{
+    font-weight: 600;
+    font-size: 18px;
+    width: 525px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'font2';
+    color: #262626;
+}
+
+.b{
+    background-color:transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.b img{
+    height: 250px;
+}
+
+.secao-1 {
+    width: 68%;
+    padding: 7rem 0rem 4rem 0rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.secao-1 h1 {
+    width: 70rem;
+    font: 45px font4;
+}
+
+.secao-1 div > p {
+    font: 18px font1;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.secao-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.secao-2 div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.secao-2 div > img {
+    width: 40vh;
+}
+
+.secao-2 div > .ibope {
+    width: 40vh;
+}
+
+.secao-2 div > p {
+    font: 20px font3;
+    width: 48vh;
+}
+
+.secao-2 div > h1 {
+    font: 25px font4;
+    color: #E9184C;
+}
+
+.secao-2 div > div {
+    margin-top: 30px;
+}
+
+.secao-3 {
+    width: 100%;
+    background-color: #E9184C;
+    height: 19rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-3 div {
+    display: flex;
+    flex-direction: column;
+    margin: 11rem;
+}
+
+.secao-3 div > h1 {
+    color: #fff;
+    font: 35px font3;
+    width: 35vh;
+    line-height: 3rem;
+}
+
+.secao-3 div > h2 {
+    width: 70vh;
+    color: #fff;
+    font: 20px font5;
+    line-height: 2.3rem;
+}
+
+

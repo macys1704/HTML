@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.verde{
+    background-color: #73e873;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.amarelo{
+    background-color: #f5f55c;
+    width: 25vw;
+    height: 50vh;
+    rotate: 45deg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.azul{
+    background-color: #3f9afc;
+    height: 40vh;
+    width: 20vw;
+    border-radius: 100%;
+}

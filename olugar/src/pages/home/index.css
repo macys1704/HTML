@@ -1,0 +1,428 @@
+header{
+
+    background-color: #5865f2;
+    height:80vh;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://assets-global.website-files.com/6257adef93867e50d84d30e2/6332958f461d9bb74e86571a_6Iy--lEU.png');
+    background-position: 100px;
+    background-size: cover;
+    background-size: 2150px ;
+    background-position-y: 80px;
+    background-repeat: no-repeat;  
+}
+
+.cabecalho{
+
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+    
+.menu{
+
+    display: flex;
+    flex-direction: row;
+    padding: 8px 140px; 
+}
+    
+.menu > a{
+
+    padding: 0px 25px;
+    color: #ffffff;
+    font-family: 'discord3';
+}
+    
+.menu > a:hover{
+
+    text-decoration: underline;
+    color: #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+    
+.cabecalho > svg{
+
+        color: #ffffff;
+}
+    
+.cabecalho > svg:hover{
+
+    cursor: pointer;
+}
+    
+.cabecalho > a{
+
+    background-color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 30px;
+    font-family: 'discord3';
+    cursor: pointer;  
+}
+    
+header > h1{
+
+        color: #ffffff;
+        font-family: 'discord1';
+        font-size: 55px;
+        align-self: flex-start;
+        padding: 80px  0px 0px 360px;
+        width: 1000px;
+}
+    
+header > p{
+
+        color: #ffffff;
+        font-family: 'discord2';
+        font-size: 20px;
+        align-self: flex-start;
+        padding: 10px 360px;
+        width: 1100px;
+}
+    
+header> a{
+
+        background-color: rgb(39, 38, 38);
+        padding: 15px 20px;
+        border-radius: 35px;
+        color: #ffffff;
+        text-decoration: none;
+        font-family: 'discord3';
+        margin: 10px;
+        width: 250px;
+        text-align: center;
+        align-self: flex-start;
+        margin-left: 350px;
+}
+    
+.link{
+
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-color: #eeeeee;
+    align-items: center;
+    justify-content: center;
+}
+
+.link > iframe{
+
+    border-radius: 25px;
+    align-self: center;
+    margin: 80px;
+
+}
+    
+.h1{
+
+    font-family: 'discord5';
+    font-size: 45px;
+    margin: 20px;
+    margin-top: 100px;
+   }
+
+.p{
+    font-family: 'discord2';
+    font-size: 18px;
+}
+   
+
+.secao2{
+    display: flex;
+    flex-direction: row;
+}
+
+.secao2-sqr {
+    width: 40vw;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.secao2-drt{
+
+    margin: 50px 20px;
+}
+
+.secao2-drt > h1{
+
+    font-size: 50px;
+    width:30vw ;
+    margin-bottom: 30px;
+    font-family: 'discord5';
+}
+
+.secao2-drt > p{
+
+    font-size: 20px;
+    width: 30vw;
+    margin-bottom:30px ;
+    font-family: 'discord2';
+    line-height: 30px;
+}
+
+.el{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.el div{
+
+    width: 15vw;
+    height: 45vh;
+    margin: 0px 20px;
+}
+
+.el > div > h1{
+
+    font-family: 'discord5';
+    font-size: 35px;
+    margin: 15px 0px;
+}
+
+.el > div > p{
+
+    font-size: 20px; 
+    font-family: 'discord2';
+    line-height: 30px;
+    text-align: left;
+}
+
+
+
+.cont{
+
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+article{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    width: 100%;
+}
+
+article > div > h1{
+
+    font-family:'discord6';
+    font-size: 45px;
+    padding: 0px 20px;
+    width: 1100px;
+    text-align: left;
+}
+
+article > div > p{
+
+    font-family: 'discord3';
+    font-size: 20px;
+    padding: 35px 20px;
+    margin-bottom: 80px;
+    text-align: left;
+}
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;   
+}
+
+nav > div{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    padding: 25px;
+    background-color: #ffff;
+    border-radius: 25px;
+    margin: 15px;
+}
+
+nav > div > p{
+
+    font-family: 'discord2';
+    font-size: 16px;
+    text-align:left;
+    line-height: 25px;
+}
+
+nav > div > img{
+
+    height: 40px;
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+nav > div > p1{
+    color: #5865f2;
+    font-family: 'discord2';
+    font-size: 16px;
+    text-align:right;
+    margin-top: 25px;
+}
+    
+.footer{
+
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTMxIiBoZWlnaHQ9IjQ5IiB2aWV3Qm94PSIwIDAgNTMxIDQ5IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNNTI3LjA5OCAxNS4wOTc3TDUzMC43MDEgMTMuNTE1NUM1MzAuNzg5IDEzLjQyNzYgNTMwLjc4OSAxMy4zMzk3IDUzMC43MDEgMTMuMzM5N0w1MjcuMDk4IDExLjc1NzZMNTI1LjQyOCA4LjA2NTkyQzUyNS40MjggNy45NzgwMyA1MjUuMzQgNy45NzgwMyA1MjUuMzQgOC4wNjU5Mkw1MjMuNjcgMTEuNjY5N0w1MjAuMDY2IDEzLjMzOTdDNTE5Ljk3OCAxMy4zMzk3IDUxOS45NzggMTMuNDI3NiA1MjAuMDY2IDEzLjUxNTVMNTIzLjY3IDE1LjA5NzdMNTI1LjM0IDE4LjcwMTVINTI1LjQyOEw1MjcuMDk4IDE1LjA5NzdaIiBmaWxsPSIjNkFEQkM2Ii8+CjxwYXRoIG9wYWNpdHk9IjAuNSIgZD0iTTMwMy41NzUgNi40TDMwNi45NzUgNC45VjQuN0wzMDMuNTc1IDMuM0wzMDIuMDc1IDBIMzAxLjg3NUwzMDAuMzc1IDMuM0wyOTcuMDc1IDQuN0MyOTYuOTc1IDQuOCAyOTYuOTc1IDQuOSAyOTcuMDc1IDQuOUwzMDAuMzc1IDYuNEwzMDEuODc1IDkuOEgzMDIuMDc1TDMwMy41NzUgNi40WiIgZmlsbD0iIzk2OTFGRiIvPgo8cGF0aCBkPSJNNTA1Ljg3NSA0My44NjIxTDUxMC45NSA0MS42MzY3QzUxMC45ODIgNDEuNjAwNyA1MTEgNDEuNTU0MSA1MTEgNDEuNTA1OEM1MTEgNDEuNDU3NSA1MTAuOTgyIDQxLjQxMDkgNTEwLjk1IDQxLjM3NDlMNTA1Ljg3NSAzOS4xNDk1TDUwMy41OTggMzQuMDQ0M0M1MDMuNTg1IDM0LjAzMDQgNTAzLjU3IDM0LjAxOTIgNTAzLjU1NCAzNC4wMTE2QzUwMy41MzcgMzQuMDA0IDUwMy41MTggMzQgNTAzLjUgMzRDNTAzLjQ4MiAzNCA1MDMuNDYzIDM0LjAwNCA1MDMuNDQ2IDM0LjAxMTZDNTAzLjQzIDM0LjAxOTIgNTAzLjQxNSAzNC4wMzA0IDUwMy40MDIgMzQuMDQ0M0w1MDEuMTI1IDM5LjA4NDFMNDk2LjA1IDQxLjM3NDlDNDk2LjAxOCA0MS40MTA5IDQ5NiA0MS40NTc1IDQ5NiA0MS41MDU4QzQ5NiA0MS41NTQxIDQ5Ni4wMTggNDEuNjAwNyA0OTYuMDUgNDEuNjM2N0w1MDEuMTI1IDQzLjg2MjFMNTAzLjQwMiA0OC45MDE4QzUwMy40ODkgNDkuMDMyNyA1MDMuNTU0IDQ5LjAzMjcgNTAzLjU5OCA0OC45MDE4TDUwNS44NzUgNDMuODYyMVoiIGZpbGw9IiM2MjhCRjciLz4KPHBhdGggZD0iTTE1LjI3NjQgMzQuMTVMMjIuOTc2NCAzMC43NUMyMy4wMjk0IDMwLjc1IDIzLjA4MDMgMzAuNzI4OSAyMy4xMTc4IDMwLjY5MTRDMjMuMTU1MyAzMC42NTM5IDIzLjE3NjQgMzAuNjAzIDIzLjE3NjQgMzAuNTVDMjMuMTc2NCAzMC40OTcgMjMuMTU1MyAzMC40NDYxIDIzLjExNzggMzAuNDA4NkMyMy4wODAzIDMwLjM3MTEgMjMuMDI5NCAzMC4zNSAyMi45NzY0IDMwLjM1TDE1LjI3NjQgMjYuOTVDMTUuMjQ5OSAyNi45NSAxNS4yMjQ0IDI2LjkzOTUgMTUuMjA1NyAyNi45MjA3QzE1LjE4NjkgMjYuOTAyIDE1LjE3NjQgMjYuODc2NSAxNS4xNzY0IDI2Ljg1TDExLjY3NjQgMTkuMTVDMTEuNjc2NCAxOC45NSAxMS40NzY0IDE4Ljk1IDExLjM3NjQgMTkuMTVMNy45NzYzOSAyNi44NUg3Ljg3NjM5TDAuMDc2MzkzMSAzMC4zNUMwLjAyNzE5NzYgMzAuNDA1IDAgMzAuNDc2MiAwIDMwLjU1QzAgMzAuNjIzOCAwLjAyNzE5NzYgMzAuNjk1IDAuMDc2MzkzMSAzMC43NUw3Ljg3NjM5IDM0LjE1SDcuOTc2MzlMMTEuMzc2NCA0MS45NUMxMS40NzY0IDQyLjE1IDExLjY3NjQgNDIuMTUgMTEuNjc2NCA0MS45NUwxNS4xNzY0IDM0LjI1QzE1LjE3NjQgMzQuMjIzNSAxNS4xODY5IDM0LjE5OCAxNS4yMDU3IDM0LjE3OTNDMTUuMjI0NCAzNC4xNjA1IDE1LjI0OTkgMzQuMTUgMTUuMjc2NCAzNC4xNVoiIGZpbGw9IiNGRjdBQkMiLz4KPC9zdmc+Cg==);
+    background-repeat: no-repeat;
+    background-position: 700px;
+    background-position-y: 0px;
+}
+
+.footer > h1 {
+
+    font-family: 'discord5';
+    margin-bottom: 30px;
+}
+
+.footer > div > a{
+
+    color:#ffff;
+    background-color: #5865f2;
+    border-radius: 25px;
+    padding: 15px 30px;
+    width: 120px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'discord3';
+    margin-bottom: 50px;
+}
+
+.escuro{
+
+    background-color: rgb(39, 38, 38)!important;
+}
+
+footer{
+
+    background-color:#23272a ;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+    footer > div {
+        
+        display:flex;
+        flex-direction: row;
+    }
+    
+    footer > div > div{
+
+    display:flex;
+    flex-direction: column;
+    padding: 75px 80px;
+    }
+    
+footer > div > div > h1{
+
+        font-family: 'discord1';
+        font-size: 35px;
+        color: #5865f2;
+        width: 250px;
+        margin-bottom: 20px;
+}
+
+footer > div > div > h2{
+
+        font-family: 'discord4';
+        font-size:18px ;
+        color: #5865f2;
+    
+    
+}
+
+    footer > div > div > p > img{
+
+        height: 20px;
+        width: 30px;
+}
+    
+    
+    footer > div > div > a{
+
+        font-family: 'discord3';
+        font-size:18px ;
+        text-decoration: none;
+        color: #ffffff;
+        line-height: 35px;
+    }
+    
+footer > div > div > a:hover{
+
+        cursor: pointer;
+        text-decoration: underline;
+        color: #ffffff;
+        transition: 0.5s;
+}
+        
+        
+    footer > div > div > p{
+
+        font-family: 'discord2';
+        font-size:14px ;
+        text-decoration: none;
+        color: #ffffff;
+        line-height: 35px;
+        margin-bottom: 20px;
+     }
+    
+    
+    
+    footer > h3{
+
+        text-align: center;
+        color: #5865f2;
+    }
+    
+    footer > div > svg{
+
+        color: #ffffff;
+        margin-right: 450px;
+        margin-top: 15px;
+    }
+    
+    footer > div > a{
+
+        background-color: #5865f2;
+        padding: 10px 10px;
+        width: 100px;
+        color: #ffffff;
+        border-radius: 25px;
+        text-decoration: none;
+        font-family: 'discord6';
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 450px;
+    }
+    
+    footer > div > a:hover{
+    background-color: #828adf;
+    transition: 0.5s;
+        
+    }
+    
+    
+    
+    

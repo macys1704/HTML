@@ -1,0 +1,634 @@
+.a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 5vh;
+}
+
+.a > a > svg{
+    height: 2vh;
+    margin: 10px;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    margin-top: 25px;
+}
+
+
+header > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > div > svg{
+    height: 2vh;
+}
+
+header > div > img {
+    width: 30vh;
+}
+
+.p{ 
+    
+    border-radius: 20px;
+    width: 40vw;
+    padding: 10px 15px;
+    border: solid black 2px;
+}
+header > div > p > svg{
+    height: 2vh;
+}
+
+header > div > p{
+    margin: 10px;
+}
+
+.l{
+    background-color: rgb(161, 161, 161);
+    height: 1px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.l1{
+    background-color: rgb(161, 161, 161);
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+nav div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+nav div a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+
+}
+
+nav div a svg{
+    height: 1.5vh;
+}
+
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+}
+
+article > h1{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+article > p{
+font-size: 18px;
+margin-top: 10px;
+}
+
+article div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 435px;
+    margin-right: 435px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    width: 100%;
+    
+}
+
+article div div a{
+   text-decoration: none;
+   margin: 5px;
+   color: black;
+   font-weight: 900;
+}
+
+
+article > div > div > h1{
+    font-size: 22px;
+    width: 30vh;
+    
+}
+article div div svg{
+    height:2vh;
+    margin: 10px;
+}
+
+aside{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+aside nav{
+ margin-bottom: 3150px;
+
+}
+
+aside nav > h1{
+    margin-bottom: 20px;
+}
+
+aside nav > h2{
+    margin-bottom: 20px;
+}
+
+aside nav p{
+    margin-bottom: 25px;
+}
+.cb{
+
+    border: solid black 1px;
+    height: 10px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    
+}
+
+.seta{
+    height: 2vh;
+    width: 1vw;
+    background-color: rgb(216, 216, 216);
+    color: black;
+    border: solid black 1px;
+    border-radius: 100%;
+    padding: 2.5px 5px;
+}
+
+.caixa{
+    border: solid black 1px;
+    padding: 0px 35px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+aside div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid rgb(216, 216, 216) 1px;
+    margin: 15px;
+    padding: 15px;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+aside div div img{
+    height: 300px;
+}
+
+.p1{
+    padding: 0px !important;
+    border-radius: 0px !important;
+    background-color: black;
+    height: 5px !important;
+    width: 350px;
+}
+
+aside div div p{
+    margin-top: 10px;
+}
+
+aside div div h1{
+    margin-top: 10px;
+}
+
+.ppp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.s{
+    border: solid rgb(255, 255, 255) 1px !important;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(238, 238, 238);
+    height: 40vh;
+    
+    
+}
+
+
+footer div{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    margin: 50px; 
+}
+
+footer div a{
+    margin-top:20px;
+    text-decoration: none;
+    color: black;
+}
+
+footer div p{
+    margin-top:20px;
+}
+
+
+footer div p svg{
+    height: 1.5vh;
+}
+
+footer div h1 svg{
+    padding: 5px 10px;
+    
+
+}
+
+.ccc{
+background-color: gray;
+height: 1px;
+width: 90vw;
+align-self: center !important;
+margin-bottom: 50px;
+}
+
+footer {
+    height: 30rem;
+}
+
+footer > div {
+   position: relative;
+   top: 10vh;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column ;
+    align-items: flex-start;
+    justify-content: center;
+    background-color:rgb(238, 238, 238);
+}
+
+.footer img{
+ margin-bottom: 30px;
+ margin-left: 30px;
+}
+
+@media (max-width: 1366px) {
+
+article div {
+    margin-left: 340px;
+    margin-right: 340px;
+}
+
+
+article > div > div > h1{
+    font-size: 22px;
+    width: 30vh;
+    
+}
+
+aside > .ppp > div > div > img {
+    width: 40vh;
+    height: auto; 
+}
+
+
+aside div > div{
+    width: 310px;
+    height: 422px;
+}
+
+aside div div img{
+    height: 300px;
+}
+
+aside > nav{
+    position: relative;
+    bottom: 80rem;
+}
+
+aside > nav{
+    margin-bottom: 0px;
+}
+
+.p1{
+    
+    width: 300px;
+}
+
+footer {
+    height: 30rem;
+}
+
+footer > div {
+   position: relative;
+   top: 10vh;
+}
+
+}
+
+@media (max-width: 1280px) {
+
+    article div {
+        margin-left: 270px;
+        margin-right: 270px;
+    }
+    
+    
+    article > div > div > h1{
+        font-size: 22px;
+        width: 30vh;
+        
+    }
+    
+    aside > .ppp > div > div > img {
+        width: 30vh;
+        height: auto; 
+    }
+    
+    
+    aside div > div{
+        width: 265px;
+        height: 350px;
+    }
+    
+    aside div div img{
+        height: 300px;
+    }
+    
+    aside > nav{
+        position: relative;
+        bottom: 65rem;
+    }
+    
+    aside > nav{
+        margin-bottom: 0px;
+    }
+    
+    .p1{
+        
+        width: 264px;
+    }
+    
+    footer {
+        height: 30rem;
+    }
+    
+    footer > div {
+       position: relative;
+       top: 10vh;
+    }
+
+    nav div {
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+
+    article div {
+        margin-left: 220px;
+        margin-right: 220px;
+    }
+
+    header > div {
+        flex-wrap: wrap;
+    }
+    
+    
+    article > div > div > h1{
+        font-size: 22px;
+        width: 30vh;
+        
+    }
+    
+    aside > .ppp > div > div > img {
+        width: 20vh;
+        height: auto; 
+    }
+    
+    
+    aside div > div{
+        width: 220px;
+        height: 300px;
+    }
+    
+    aside div div img{
+        height: 300px;
+    }
+    
+    aside > nav{
+        position: relative;
+        bottom: 52rem;
+    }
+    
+    aside > nav{
+        margin-bottom: 0px;
+    }
+    
+    .p1{
+        
+        width: 245px;
+    }
+    
+    footer {
+        height: 30rem;
+    }
+    
+    footer > div {
+       position: relative;
+       top: 10vh;
+    }
+
+    nav div {
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width: 1100px) {
+
+    article div {
+        margin-left: 220px;
+        margin-right: 220px;
+    }
+
+    header > div {
+        flex-wrap: wrap;
+    }
+    
+    
+    article > div > div > h1{
+        font-size: 22px;
+        width: 30vh;
+        
+    }
+    
+    aside > .ppp > div > div > img {
+        width: 20vh;
+        height: auto; 
+    }
+    
+    
+    aside div > div{
+        width: 240px;
+        height: 300px;
+    }
+    
+    aside div div img{
+        height: 300px;
+    }
+    
+    aside > nav{
+        position: relative;
+        bottom: 52rem;
+    }
+    
+    aside > nav{
+        margin-bottom: 0px;
+    }
+    
+    .p1{
+        
+        width: 240px;
+    }
+    
+    footer {
+        height: 30rem;
+    }
+    
+    footer > div {
+       position: relative;
+       top: 10vh;
+    }
+
+    nav div {
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media (max-width: 760px) {
+
+    .ppp > div {
+       flex-direction: column;
+    }
+
+    aside > nav {
+        display: none;
+    }
+
+    article div {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    header > div {
+        flex-wrap: wrap;
+    }
+            
+    article > div > div > h1{
+        font-size: 22px;
+        width: 30vh;
+                
+    }
+        
+    aside > .ppp > div > div > img {
+        width: 75vh;
+        height: auto; 
+    }
+        
+        
+    aside div > div{
+        width: 600px;
+        height: 650px;
+    }
+        
+    aside div div img{
+        height: 340px;
+    }
+            
+    aside > nav{
+        position: relative;
+        bottom: 52rem;
+            }
+            
+    aside > nav{
+        margin-bottom: 0px;
+    }
+            
+    .p1{
+                
+        width: 602px;
+    }
+
+    footer > div {
+        margin: 20vh;
+    }
+            
+    footer {
+        height: 50rem;
+    }
+            
+    footer > div {
+        position: relative;
+        top: 10vh;
+    }
+
+    nav div {
+        flex-wrap: wrap;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer div{
+    display: flex;
+    flex-direction: column ;
+    align-items: flex-start;
+    justify-content: start;
+    margin: 10px; 
+}
+
+
+    
+}

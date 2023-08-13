@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'f';
+}
+
+@font-face {
+    font-family: f;
+    src: url(../assets/fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2);
+}

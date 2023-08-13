@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'font1';
+    src: url(../assets/fonts/Insanibc.ttf);
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url(../assets/fonts/Letters\ for\ Learners.ttf);
+}
+
+@font-face {
+    font-family: 'font3';
+    src: url(../assets/fonts/TheStudentsTeacher-Regular.ttf);
+}
