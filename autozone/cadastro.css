@@ -1,0 +1,86 @@
+body {
+
+    background-image: url('../../assets/image/fundo-zone.jpg');
+    background-repeat: no-repeat;
+    background-size: 200vh 50vw;
+}
+
+section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70px;
+    
+}
+
+section > .fundo {
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.fundo {
+
+    background-color: rgb(255, 225, 0);
+    width: 70vh;
+    height: 40vw;
+    display: flex;
+    border-radius: 40px;
+}
+
+section > .fundo > .svg {
+
+    margin-bottom: 40px;
+    width: 25vh;
+}
+
+section > .fundo > h1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(211, 26, 26);
+}
+
+.informacoes {
+
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.informacoes > .nome {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.informacoes > .botao {
+
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+}
+
+.informacoes > .nome {
+
+    margin-top: 30px;
+}
+
+.informacoes > .cadastro {
+
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: rgb(255, 0, 0);
+    margin-top: 60px;
+    color: rgb(255, 255, 255);
+    font: 10px arial;
+    text-align: center;
+}
